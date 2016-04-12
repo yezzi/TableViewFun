@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1F3C301CBCF9AF00A4580F /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F3C2F1CBCF9AF00A4580F /* NormalViewController.swift */; };
 		FAB954111CA92B460093CF90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB954101CA92B460093CF90 /* AppDelegate.swift */; };
 		FAB954131CA92B460093CF90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB954121CA92B460093CF90 /* ViewController.swift */; };
 		FAB954161CA92B460093CF90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB954141CA92B460093CF90 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA1F3C2F1CBCF9AF00A4580F /* NormalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
 		FAB9540D1CA92B460093CF90 /* TableViewFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB954101CA92B460093CF90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAB954121CA92B460093CF90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				FAB954171CA92B460093CF90 /* Assets.xcassets */,
 				FAB954191CA92B460093CF90 /* LaunchScreen.storyboard */,
 				FAB9541C1CA92B460093CF90 /* Info.plist */,
+				FA1F3C2F1CBCF9AF00A4580F /* NormalViewController.swift */,
 			);
 			path = TableViewFun;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB954131CA92B460093CF90 /* ViewController.swift in Sources */,
+				FA1F3C301CBCF9AF00A4580F /* NormalViewController.swift in Sources */,
 				FAB954111CA92B460093CF90 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				FAB954371CA92B470093CF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAB954381CA92B470093CF90 /* Build configuration list for PBXNativeTarget "TableViewFunTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				FAB9543A1CA92B470093CF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAB9543B1CA92B470093CF90 /* Build configuration list for PBXNativeTarget "TableViewFunUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				FAB9543D1CA92B470093CF90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
